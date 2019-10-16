@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="java-example.main" target="1.8" />
       <module name="java-example.test" target="1.8" />
+      <module name="litecart.main" target="1.8" />
+      <module name="litecart.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
