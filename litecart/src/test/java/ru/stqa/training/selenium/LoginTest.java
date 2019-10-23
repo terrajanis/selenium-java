@@ -10,17 +10,8 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class LoginTest {
+public class LoginTest extends TestBase {
 
-    private WebDriver driver;
-    private WebDriverWait wait;
-
-@BeforeMethod
-public  void start() {
-    driver = new ChromeDriver();
-    driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-    wait = new WebDriverWait(driver, 10);
-}
 
 @Test
     public void loginTest(){
@@ -31,9 +22,5 @@ public  void start() {
     driver.findElement(By.name("login")).click();
 }
 
-    @AfterMethod
-    public void stop() {
-        driver.quit();
-        driver = null;
-    }
+
 }
