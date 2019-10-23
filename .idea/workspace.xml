@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1a537b4-915c-499d-9a91-b7ccca6f9500" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/litecart/out/test/classes/ru/stqa/training/selenium/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/litecart/out/test/classes/ru/stqa/training/selenium/LoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/LoginTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="e1a537b4-915c-499d-9a91-b7ccca6f9500" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/java-example/.gradle/" />
     <ignored path="$PROJECT_DIR$/java-example/build/" />
     <ignored path="$PROJECT_DIR$/java-example/out/" />
@@ -79,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="49" selection-start-line="17" selection-start-column="4" selection-end-line="21" selection-end-column="49" />
+            <state relative-caret-position="193">
+              <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
+            <state relative-caret-position="259">
               <caret line="30" column="58" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -100,11 +96,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/AdminMenuTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2449">
-              <caret line="126" column="71" selection-start-line="126" selection-start-column="71" selection-end-line="126" selection-end-column="71" />
+            <state relative-caret-position="252">
+              <caret line="63" column="56" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CheckStickersTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,6 +155,7 @@
         <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/LoginTest.java" />
         <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/TestBase.java" />
         <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/AdminMenuTest.java" />
+        <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CheckStickersTest.java" />
       </list>
     </option>
   </component>
@@ -278,7 +287,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571850484101" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571853586349" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -296,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AdminMenuTest">
+  <component name="RunManager" selected="TestNG.CheckStickersTest">
     <configuration name="AdminMenuTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="litecart.test" />
       <extension name="coverage">
@@ -332,7 +341,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckStickersTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="litecart.test" />
       <extension name="coverage">
         <pattern>
@@ -341,8 +350,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.LoginTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.CheckStickersTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckStickersTest.checkStickers" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="litecart.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.training.selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.CheckStickersTest" />
+      <option name="METHOD_NAME" value="checkStickers" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -367,30 +394,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MixxBar" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="litecart.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.training.selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.MixxBar" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CheckStickersTest" />
+        <item itemvalue="TestNG.CheckStickersTest.checkStickers" />
         <item itemvalue="TestNG.AdminMenuTest" />
         <item itemvalue="TestNG.AdminMenuTest.goThroughMenu" />
         <item itemvalue="TestNG.LoginTest.loginTest" />
-        <item itemvalue="TestNG.MixxBar" />
-        <item itemvalue="TestNG.LoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -408,12 +418,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest_loginTest - 2019.10.23 at 19h 25m 11s.xml">
-      <configuration name="LoginTest.loginTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_loginTest - 2019.10.23 at 19h 26m 00s.xml">
-      <configuration name="LoginTest.loginTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="AdminMenuTest_goThroughMenu - 2019.10.23 at 19h 26m 18s.xml">
       <configuration name="AdminMenuTest.goThroughMenu" configurationId="TestNG" />
     </history-entry>
@@ -437,6 +441,12 @@
     </history-entry>
     <history-entry file="AdminMenuTest - 2019.10.23 at 20h 07m 47s.xml">
       <configuration name="AdminMenuTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckStickersTest_checkStickers - 2019.10.23 at 20h 55m 28s.xml">
+      <configuration name="CheckStickersTest.checkStickers" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckStickersTest_checkStickers - 2019.10.23 at 20h 57m 20s.xml">
+      <configuration name="CheckStickersTest.checkStickers" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -503,6 +513,18 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout-to-restore>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CheckStickersTest.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stqa/training/selenium.java" />
     <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/MixxBar.java" />
@@ -529,26 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="49" selection-start-line="17" selection-start-column="4" selection-end-line="21" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="58" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11529">
@@ -559,10 +561,40 @@
     <entry file="file://$PROJECT_DIR$/litecart/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/AdminMenuTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2449">
-          <caret line="126" column="71" selection-start-line="126" selection-start-column="71" selection-end-line="126" selection-end-column="71" />
+        <state relative-caret-position="252">
+          <caret line="63" column="56" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="30" column="58" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CheckStickersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
