@@ -9,7 +9,7 @@ public class RegistrationTest extends TestBase {
 
     @Test
     public void newRegistration(){
-        driver.get("http://localhost/litecart/en/");
+        driver.get("http://litecart.stqa.ru/ru/");
         driver.findElement(By.linkText("New customers click here")).click();
         driver.findElement(By.cssSelector("input[name = tax_id]")).sendKeys("11111");
         driver.findElement(By.cssSelector("input[name = company]")).sendKeys("Stark Industries");

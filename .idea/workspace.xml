@@ -70,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/AddNewProductTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="25" column="102" lean-forward="true" selection-start-line="25" selection-start-column="102" selection-end-line="25" selection-end-column="102" />
+            <state relative-caret-position="-38">
+              <caret line="26" column="75" lean-forward="true" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -294,7 +294,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572463919934" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572464272526" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -312,7 +312,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AddNewProductTest">
+  <component name="RunManager" selected="TestNG.RegistrationTest.newRegistration">
     <configuration name="AddNewProductTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="litecart.test" />
       <extension name="coverage">
@@ -365,24 +365,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CampaignsProductTest.checkDuck" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="litecart.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.training.selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.CampaignsProductTest" />
-      <option name="METHOD_NAME" value="checkDuck" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RegistrationTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="litecart.test" />
       <extension name="coverage">
@@ -400,13 +382,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegistrationTest.newRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="litecart.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.training.selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.RegistrationTest" />
+      <option name="METHOD_NAME" value="newRegistration" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RegistrationTest.newRegistration" />
         <item itemvalue="TestNG.AddNewProductTest" />
         <item itemvalue="TestNG.AddNewProductTest.addNewProduct" />
         <item itemvalue="TestNG.RegistrationTest" />
         <item itemvalue="TestNG.CampaignsProductTest" />
-        <item itemvalue="TestNG.CampaignsProductTest.checkDuck" />
       </list>
     </recent_temporary>
   </component>
@@ -424,12 +424,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddNewProductTest - 2019.10.30 at 22h 10m 44s.xml">
-      <configuration name="AddNewProductTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddNewProductTest - 2019.10.30 at 22h 12m 37s.xml">
-      <configuration name="AddNewProductTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="AddNewProductTest - 2019.10.30 at 22h 13m 23s.xml">
       <configuration name="AddNewProductTest" configurationId="TestNG" />
     </history-entry>
@@ -454,9 +448,15 @@
     <history-entry file="AddNewProductTest_addNewProduct - 2019.10.30 at 22h 28m 27s.xml">
       <configuration name="AddNewProductTest.addNewProduct" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="AddNewProductTest_addNewProduct - 2019.10.30 at 22h 29m 49s.xml">
+      <configuration name="AddNewProductTest.addNewProduct" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddNewProductTest - 2019.10.30 at 22h 31m 03s.xml">
+      <configuration name="AddNewProductTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20032224" />
@@ -554,7 +554,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/AddNewProductTest.java</url>
-          <line>24</line>
+          <line>23</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
@@ -682,8 +682,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/AddNewProductTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="25" column="102" lean-forward="true" selection-start-line="25" selection-start-column="102" selection-end-line="25" selection-end-column="102" />
+        <state relative-caret-position="-38">
+          <caret line="26" column="75" lean-forward="true" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
