@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1a537b4-915c-499d-9a91-b7ccca6f9500" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e1a537b4-915c-499d-9a91-b7ccca6f9500" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/java-example/.gradle/" />
     <ignored path="$PROJECT_DIR$/java-example/build/" />
     <ignored path="$PROJECT_DIR$/java-example/out/" />
@@ -44,10 +42,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/TestBase.java">
+        <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/RegistrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="28" />
+            <state relative-caret-position="231">
+              <caret line="11" column="47" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,10 +54,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/RegistrationTest.java">
+        <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/AddNewProductTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="286">
+              <caret line="34" column="123" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="123" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,10 +66,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/AddNewProductTest.java">
+        <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/AddProductToCartTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
-              <caret line="26" column="75" lean-forward="true" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
+            <state relative-caret-position="196">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CampaignsProductTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
+            <state relative-caret-position="1218">
               <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -106,7 +104,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CountryAndZoneSortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
+            <state relative-caret-position="1533">
               <caret line="81" selection-start-line="81" selection-end-line="81" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -123,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CheckStickersTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="52" />
+            <state relative-caret-position="315">
+              <caret line="15" column="82" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,10 +171,12 @@
         <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CampaignsProductTest.java" />
         <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/RegistrationTest.java" />
         <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/AddNewProductTest.java" />
+        <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/AddProductToCart.java" />
+        <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/AddProductToCartTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="86" />
     <option name="width" value="1936" />
@@ -190,7 +190,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,10 +290,11 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572464272526" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572790435720" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -312,7 +312,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.RegistrationTest.newRegistration">
+  <component name="RunManager" selected="TestNG.AddProductToCartTest">
     <configuration name="AddNewProductTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="litecart.test" />
       <extension name="coverage">
@@ -348,7 +348,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CampaignsProductTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddProductToCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="litecart.test" />
       <extension name="coverage">
         <pattern>
@@ -357,7 +357,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.CampaignsProductTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.AddProductToCartTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -365,7 +365,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddProductToCartTest.addProductToCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="litecart.test" />
       <extension name="coverage">
         <pattern>
@@ -374,8 +374,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.RegistrationTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.AddProductToCartTest" />
+      <option name="METHOD_NAME" value="addProductToCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -402,11 +403,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddProductToCartTest" />
+        <item itemvalue="TestNG.AddProductToCartTest.addProductToCart" />
         <item itemvalue="TestNG.RegistrationTest.newRegistration" />
         <item itemvalue="TestNG.AddNewProductTest" />
         <item itemvalue="TestNG.AddNewProductTest.addNewProduct" />
-        <item itemvalue="TestNG.RegistrationTest" />
-        <item itemvalue="TestNG.CampaignsProductTest" />
       </list>
     </recent_temporary>
   </component>
@@ -424,24 +425,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddNewProductTest - 2019.10.30 at 22h 13m 23s.xml">
-      <configuration name="AddNewProductTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddNewProductTest - 2019.10.30 at 22h 13m 50s.xml">
-      <configuration name="AddNewProductTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddNewProductTest - 2019.10.30 at 22h 14m 58s.xml">
-      <configuration name="AddNewProductTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddNewProductTest - 2019.10.30 at 22h 17m 04s.xml">
-      <configuration name="AddNewProductTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddNewProductTest - 2019.10.30 at 22h 21m 18s.xml">
-      <configuration name="AddNewProductTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddNewProductTest_addNewProduct - 2019.10.30 at 22h 23m 10s.xml">
-      <configuration name="AddNewProductTest.addNewProduct" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="AddNewProductTest_addNewProduct - 2019.10.30 at 22h 25m 41s.xml">
       <configuration name="AddNewProductTest.addNewProduct" configurationId="TestNG" />
     </history-entry>
@@ -454,12 +437,29 @@
     <history-entry file="AddNewProductTest - 2019.10.30 at 22h 31m 03s.xml">
       <configuration name="AddNewProductTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="AddProductToCartTest_addProductToCart - 2019.11.03 at 16h 15m 55s.xml">
+      <configuration name="AddProductToCartTest.addProductToCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddProductToCartTest_addProductToCart - 2019.11.03 at 16h 18m 08s.xml">
+      <configuration name="AddProductToCartTest.addProductToCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddProductToCartTest_addProductToCart - 2019.11.03 at 16h 20m 38s.xml">
+      <configuration name="AddProductToCartTest.addProductToCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddProductToCartTest_addProductToCart - 2019.11.03 at 17h 05m 30s.xml">
+      <configuration name="AddProductToCartTest.addProductToCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddProductToCartTest_addProductToCart - 2019.11.03 at 17h 07m 29s.xml">
+      <configuration name="AddProductToCartTest.addProductToCart" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddProductToCartTest_addProductToCart - 2019.11.03 at 17h 08m 31s.xml">
+      <configuration name="AddProductToCartTest.addProductToCart" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20032224" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20300752" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -468,8 +468,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946293" visible="true" weight="0.32982457" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946293" weight="0.32982457" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -558,6 +558,12 @@
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/AddProductToCartTest.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -607,23 +613,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11529">
-          <caret line="592" selection-start-line="592" selection-end-line="592" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/litecart/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/litecart/src/test/resources/spiderman duck.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="28" />
+        <state relative-caret-position="462">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -640,30 +633,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CampaignsProductTest.java">
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CountryAndZoneSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="1533">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/resources/spiderman duck.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11529">
+          <caret line="592" selection-start-line="592" selection-end-line="592" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CheckStickersTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="52" />
+        <state relative-caret-position="315">
+          <caret line="15" column="82" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CountryAndZoneSortTest.java">
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CampaignsProductTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="1218">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -672,8 +678,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/RegistrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="231">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -682,8 +688,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/AddNewProductTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="26" column="75" lean-forward="true" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
+        <state relative-caret-position="286">
+          <caret line="34" column="123" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="123" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/AddProductToCartTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
