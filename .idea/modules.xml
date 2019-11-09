@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-example.iml" filepath="$PROJECT_DIR$/.idea/modules/java-example.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-example.main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-example.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-example.test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-example.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/litecart.iml" filepath="$PROJECT_DIR$/.idea/modules/litecart.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/litecart.main.iml" filepath="$PROJECT_DIR$/.idea/modules/litecart.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/litecart.test.iml" filepath="$PROJECT_DIR$/.idea/modules/litecart.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/selenium-java.iml" filepath="$PROJECT_DIR$/selenium-java.iml" />
     </modules>
   </component>
 </project>
