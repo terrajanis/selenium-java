@@ -1,23 +1,24 @@
-package ru.stqa.training.selenium;
+package ru.stqa.training.selenium.tests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import ru.stqa.training.selenium.tests.TestBase;
 
 import java.util.Arrays;
 
-public class CampaignsProductTest extends TestBase{
+public class CampaignsProductTest extends TestBase {
 
     @Test
     public void checkDuck() {
 
-        driver.get("http://localhost/litecart/en/");
-        WebElement duckNameMain = driver.findElement(By.xpath("//div[@id='box-campaigns']//div[@class='name']"));
+        app.driver.get("http://localhost/litecart/en/");
+        WebElement duckNameMain = app.driver.findElement(By.xpath("//div[@id='box-campaigns']//div[@class='name']"));
         String duckNameMainText = duckNameMain.getAttribute("innerText");
-        WebElement campaignPriceMain = driver.findElement(By.xpath("//div[@id='box-campaigns']//strong[@class='campaign-price']"));
+        WebElement campaignPriceMain = app.driver.findElement(By.xpath("//div[@id='box-campaigns']//strong[@class='campaign-price']"));
         String campaignPriceMainText = campaignPriceMain.getAttribute("innerText");
-        WebElement regularPriceMain = driver.findElement(By.xpath("//div[@id='box-campaigns']//s[@class='regular-price']"));
+        WebElement regularPriceMain = app.driver.findElement(By.xpath("//div[@id='box-campaigns']//s[@class='regular-price']"));
         String regularPriceMainText = regularPriceMain.getAttribute("innerText");
         String[] redColor = campaignPriceMain.getCssValue("color").replaceAll("[rgba()]", "").split("\\s*,\\s*");
         String[] greyColor = regularPriceMain.getCssValue("color").replaceAll("[rgba()]", "").split("\\s*,\\s*");
@@ -29,13 +30,13 @@ public class CampaignsProductTest extends TestBase{
         Assert.assertTrue(regularPriceMain.getTagName().equals("s"));
         Assert.assertTrue((campaignPriceMain.getSize().height > regularPriceMain.getSize().height) && (campaignPriceMain.getSize().width > regularPriceMain.getSize().width));
 
-        driver.findElement(By.cssSelector("#box-campaigns.box li.product a.link")).click();
+        app.driver.findElement(By.cssSelector("#box-campaigns.box li.product a.link")).click();
 
-        WebElement duckNameProductPage = driver.findElement(By.tagName("h1"));
+        WebElement duckNameProductPage = app.driver.findElement(By.tagName("h1"));
         String duckNameProductPageText = duckNameProductPage.getAttribute("innerText");
-        WebElement campaignPriceProductPage = driver.findElement(By.xpath("//div[@class='information']//strong[@class='campaign-price']"));
+        WebElement campaignPriceProductPage = app.driver.findElement(By.xpath("//div[@class='information']//strong[@class='campaign-price']"));
         String campaignPriceProductPageText = campaignPriceProductPage.getAttribute("innerText");
-        WebElement regularPriceProductPage = driver.findElement(By.xpath("//div[@class='information']//s[@class='regular-price']"));
+        WebElement regularPriceProductPage = app.driver.findElement(By.xpath("//div[@class='information']//s[@class='regular-price']"));
         String regularPriceProductPageText = regularPriceProductPage.getAttribute("innerText");
 
         String[] redColor2 = campaignPriceProductPage.getCssValue("color").replaceAll("[rgba()]", "").split("\\s*,\\s*");

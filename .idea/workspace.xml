@@ -2,8 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e5d341c-b299-43ac-bf98-3a88661a0d23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CheckLogsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/app/AdminHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/app/ApplicationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/app/HelperBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/app/NavigationHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/app/ProductHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart/out/test/classes/ru/stqa/training/selenium/AddNewProductTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart/out/test/classes/ru/stqa/training/selenium/AddProductToCartTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart/out/test/classes/ru/stqa/training/selenium/AdminMenuTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart/out/test/classes/ru/stqa/training/selenium/CampaignsProductTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart/out/test/classes/ru/stqa/training/selenium/CheckStickersTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart/out/test/classes/ru/stqa/training/selenium/CountryAndZoneSortTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart/out/test/classes/ru/stqa/training/selenium/LoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart/out/test/classes/ru/stqa/training/selenium/RegistrationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart/out/test/classes/ru/stqa/training/selenium/TestBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/AddNewProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/AddNewProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/AddProductToCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/AddProductToCartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/AdminMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/AdminMenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CampaignsProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/CampaignsProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CheckLogsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/CheckLogsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CheckNewWindowsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/CheckNewWindowsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CheckStickersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/CheckStickersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CountryAndZoneSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/CountryAndZoneSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/RegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/TestBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -32,19 +56,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CheckNewWindowsTest.java">
+        <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+            <state relative-caret-position="306">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CheckLogsTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/RegistrationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/AdminMenuTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/AddProductToCartTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/AddNewProductTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/app/HelperBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,10 +113,51 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CountryAndZoneSortTest.java">
+        <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/app/AdminHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
-              <caret line="18" column="109" selection-start-line="18" selection-start-column="82" selection-end-line="18" selection-end-column="109" />
+            <state relative-caret-position="119">
+              <caret line="9" column="5" selection-start-line="7" selection-start-column="3" selection-end-line="9" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/app/ApplicationManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/app/ProductHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/app/NavigationHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,6 +180,22 @@
       <list>
         <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CheckNewWindowsTest.java" />
         <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CheckLogsTest.java" />
+        <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/app/AdminHelper.java" />
+        <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/TestBase.java" />
+        <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/app/HelperBase.java" />
+        <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/CampaignsProductTest.java" />
+        <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/CheckLogsTest.java" />
+        <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/CheckNewWindowsTest.java" />
+        <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/CheckStickersTest.java" />
+        <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/CountryAndZoneSortTest.java" />
+        <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/LoginTest.java" />
+        <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/RegistrationTest.java" />
+        <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/app/NavigationHelper.java" />
+        <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/app/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/AddNewProductTest.java" />
+        <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/AdminMenuTest.java" />
+        <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/app/ProductHelper.java" />
+        <option value="$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/AddProductToCartTest.java" />
       </list>
     </option>
   </component>
@@ -93,6 +210,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,17 +253,37 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="selenium" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="selenium-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-java" type="462c0819:PsiDirectoryNode" />
+              <item name="litecart" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-java" type="462c0819:PsiDirectoryNode" />
+              <item name="litecart" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573573101700" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574001363837" />
+    <property name="extract.method.default.visibility" value="public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -163,17 +301,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CheckLogsTest.checkLogs">
+  <component name="RunManager" selected="TestNG.AddProductToCartTest.addProductToCart">
+    <configuration name="AddProductToCartTest.addProductToCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="litecart.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.training.selenium.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.training.selenium.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.tests.AddProductToCartTest" />
+      <option name="METHOD_NAME" value="addProductToCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CheckLogsTest.checkLogs" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="litecart.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.stqa.training.selenium.*" />
+          <option name="PATTERN" value="ru.stqa.training.selenium.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.CheckLogsTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.tests.CheckLogsTest" />
       <option name="METHOD_NAME" value="checkLogs" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -186,12 +342,12 @@
       <module name="litecart.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.stqa.training.selenium.*" />
+          <option name="PATTERN" value="ru.stqa.training.selenium.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.training.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.CheckNewWindowsTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.training.selenium.tests.CheckNewWindowsTest" />
       <option name="METHOD_NAME" value="checkNewWindows" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -202,6 +358,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddProductToCartTest.addProductToCart" />
         <item itemvalue="TestNG.CheckLogsTest.checkLogs" />
         <item itemvalue="TestNG.CheckNewWindowsTest.checkNewWindows" />
       </list>
@@ -239,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573323996480</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Homework 17">
+      <created>1573573173392</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573573173392</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -258,12 +422,14 @@
     <history-entry file="CheckLogsTest_checkLogs - 2019.11.12 at 18h 36m 18s.xml">
       <configuration name="CheckLogsTest.checkLogs" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="AddProductToCartTest_addProductToCart - 2019.11.17 at 17h 28m 37s.xml">
+      <configuration name="AddProductToCartTest.addProductToCart" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18710022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -271,9 +437,9 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -295,35 +461,28 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New test" />
-    <option name="LAST_COMMIT_MESSAGE" value="New test" />
+    <MESSAGE value="Homework 17" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 17" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CheckLogsTest.java</url>
-          <line>21</line>
+          <url>file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/CheckLogsTest.java</url>
+          <line>22</line>
           <properties />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/app/ProductHelper.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CheckNewWindowsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CountryAndZoneSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="18" column="109" selection-start-line="18" selection-start-column="82" selection-end-line="18" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
@@ -331,10 +490,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/CheckLogsTest.java">
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/CampaignsProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/CheckLogsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/CheckNewWindowsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/CheckStickersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/CountryAndZoneSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/RegistrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/app/AdminHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="5" selection-start-line="7" selection-start-column="3" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/app/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/AddNewProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/AdminMenuTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/app/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/app/NavigationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/tests/AddProductToCartTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/litecart/src/test/java/ru/stqa/training/selenium/app/ProductHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
